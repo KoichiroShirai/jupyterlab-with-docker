@@ -10,7 +10,9 @@ ENV LANG ja_JP.UTF-8 && \
     LC_All ja_JP.UTF-8 && \
     TZ JST-9
 
-RUN apt-get install --no-install-recommends -y fonts-noto-cjk=1:20170601+repack1-2 && \
+# hadolint ignore=DL3008
+RUN apt-get update && \
+    apt-get install --no-install-recommends -y fonts-noto-cjk && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

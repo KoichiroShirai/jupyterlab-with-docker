@@ -5,6 +5,7 @@
 - [docker](https://www.docker.com/)
 - [python](https://www.python.org/)
 - [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/#)
+- [Google Fonts noto CJK](https://github.com/googlefonts/noto-cjk)
 
 ## Setup
 
